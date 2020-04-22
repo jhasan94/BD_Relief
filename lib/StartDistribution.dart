@@ -30,7 +30,7 @@ class _StartDistributionState extends State<StartDistribution> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          appBar: appBarModel.Appbar("Start Ditribution"),
+          appBar: appBarModel.Appbar("Start Ditribution",context),
           //background color;
           backgroundColor: Colors.teal,
           body: ListView(

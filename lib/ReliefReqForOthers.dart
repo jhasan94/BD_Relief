@@ -14,7 +14,7 @@ class _ReliefReqForOthersState extends State<ReliefReqForOthers> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: appBarModel.Appbar("Relief Request for Others"),
+        appBar: appBarModel.Appbar("Relief Request for Others",context),
         //background color;
         backgroundColor: Colors.teal,
         body: ListView(

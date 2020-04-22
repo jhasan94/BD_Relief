@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112140401675",
+    "firebase_url": "https://bdrelief-4e291.firebaseio.com",
+    "project_id": "bdrelief-4e291",
+    "storage_bucket": "bdrelief-4e291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112140401675:android:c998fd2cbb727590a85b0e",
+        "android_client_info": {
+          "package_name": "com.example.corona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112140401675-vtjqb2siu0hosder026vg8ttfcjrauqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.corona",
+            "certificate_hash": "8e21260efed43a8ec0d8f5fba73cf59e962934db"
+          }
+        },
+        {
+          "client_id": "112140401675-77gh2tf1gf78nt754d8p9p6t1kos2htl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXxBYnxB-ljjFzNV3EBnqKC4V9cE6i9WE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112140401675-77gh2tf1gf78nt754d8p9p6t1kos2htl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

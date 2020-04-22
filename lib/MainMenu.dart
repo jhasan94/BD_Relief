@@ -19,7 +19,7 @@ class _MainMenuState extends State<MainMenu> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: appBarModel.Appbar("Main Menu"),
+        appBar: appBarModel.Appbar("Main Menu",context),
         //background color;
         backgroundColor: Colors.teal,
         body: Container(

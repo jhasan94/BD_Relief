@@ -15,7 +15,7 @@ class _ReliefDistributionRequestState extends State<ReliefDistributionRequest> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: appBarModel.Appbar("Relief Ditribution Request"),
+        appBar: appBarModel.Appbar("Relief Ditribution Request",context),
         //background color;
         backgroundColor: Colors.teal,
         body: ListView(

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AppBarModel extends StatelessWidget {
-  Widget Appbar(String title,) {
+  final _textFieldController = TextEditingController();
+
+  Widget Appbar(String title,BuildContext context) {
     return PreferredSize(
       preferredSize: Size.fromHeight(40.0), // here the desired height
 
@@ -12,10 +14,9 @@ class AppBarModel extends StatelessWidget {
           child: IconButton(
             icon: Icon(Icons.arrow_back),
             onPressed: () {
+              Navigator.pop(context);
 
-
-
-              print('Click leading');
+              //print('Click leading');
             },
           ),
         ),
@@ -30,6 +31,7 @@ class AppBarModel extends StatelessWidget {
       ),
     );
   }
+
 
 
   Widget rowWithField(String fieldName) {
@@ -55,6 +57,7 @@ class AppBarModel extends StatelessWidget {
               height: 30,
               child: TextField(
                 //cursorWidth: 5.0,
+                controller: _textFieldController,
                 textAlign: TextAlign.justify,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(

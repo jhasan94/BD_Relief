@@ -16,7 +16,7 @@ class _ReliefRequestForOthersConfirmationPageState
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: appBarModel.Appbar("Relief Request for Others"),
+        appBar: appBarModel.Appbar("Relief Request for Others",context),
         //background color;
         backgroundColor: Colors.teal,
         body: Container(
