@@ -32,7 +32,7 @@ class _ReliefDistributionStatusState extends State<ReliefDistributionStatus> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: appBarModel.Appbar("Relief Ditribution Status"),
+        appBar: appBarModel.Appbar("Relief Ditribution Status",context),
         //background color;
         backgroundColor: Colors.teal,
         body: Container(

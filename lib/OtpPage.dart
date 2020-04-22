@@ -14,7 +14,7 @@ class _OtpPageState extends State<OtpPage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: appBarModel.Appbar("User Registration"),
+        appBar: appBarModel.Appbar("User Registration",context),
         //background color;
         backgroundColor: Colors.teal,
         body: Container(
